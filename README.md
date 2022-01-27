@@ -14,7 +14,7 @@ The page updates every 15secs.
 
 ## Roadmap
 - Add more different bus routes to the Boston map.
-- Track the buses from different cities.
+- Track buses from different cities.
 
 ## License
     MIT License
