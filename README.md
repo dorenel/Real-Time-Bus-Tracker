@@ -9,7 +9,7 @@ The page updates every 15secs.
 ## Execution
 1. Download all the files from the repository.
 2. Open index.html from the browser.
-3. Click the `Start Tracking` button to start updating all the current locations of the buses.
+3. Click the `Start Tracking` button to start display all the current locations of the buses.
 4. Click on the bus marker to see the detail information about the specific bus.
 
 ## Roadmap
