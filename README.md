@@ -13,8 +13,8 @@ The page updates every 15secs.
 4. Clink on the bus marker to see the detail information about the specific bus.
 
 ## Roadmap
-- Add more different bus routes to the map.
-- Track the buses from a different city.
+- Add more different bus routes to the Boston map.
+- Track the buses from different cities.
 
 ## License
     MIT License
