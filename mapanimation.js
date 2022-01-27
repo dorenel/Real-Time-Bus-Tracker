@@ -29,15 +29,19 @@ async function run() {
     console.log(new Date());
     console.log(locations);
     for (let location of locations) {
+        let label = location.attributes.label;
         let lng = location.attributes.longitude;
         let lat = location.attributes.latitude;
         let direction = location.attributes.direction_id;
+        let occupancy = location.attributes.occupancy_status;
         let markerColor = "#117EE8"
         if (direction === 0) {
             markerColor = "#E84611"
         }
         let marker = new mapboxgl.Marker({ color: markerColor })
-            .setLngLat([lng, lat]).addTo(map);
+            .setLngLat([lng, lat])
+            .setPopup(new mapboxgl.Popup().setHTML("<p style='font-size:10px;'>" + "Bus ID: " + label + "<br>" + "Occupancy: " + occupancy + "</p>"))
+            .addTo(map);
         markers.push(marker);
     }
     console.log(markers.length);
